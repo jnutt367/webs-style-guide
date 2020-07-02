@@ -2,21 +2,13 @@
 //       Partial imports
 //======================================================
 // Utilities
-@import 'utilities.scss/variables.scss',
-        'utilities.scss/mixins.scss';
+@import 'utilities.scss/index.scss';
 
 // Base Styles
-@import 'base.scss/main-styles',
-        'base.scss/typography.scss';
-
-
+@import 'base.scss/index.scss';
+        
 // Component Styles
-@import 'component.scss/grid.scss',
-        'component.scss/navigation.scss',
-        'component.scss/button.scss',
-        'component.scss/form.scss',
-        'component.scss/images.scss',
-        'component.scss/media-queries.scss';
+@import 'component.scss/index.scss';
 
 
 
