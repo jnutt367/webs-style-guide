@@ -1,13 +1,15 @@
 // =====================================================
 //       Partial imports
 //======================================================
-
 // Utilities
 @import 'utilities.scss/variables.scss',
         'utilities.scss/mixins.scss';
+        
 // Base Styles
 @import 'base.scss/main-styles',
         'base.scss/typography.scss';
+
+
 // Component Styles
 @import 'component.scss/grid.scss',
         'component.scss/navigation.scss',
@@ -16,33 +18,18 @@
         'component.scss/images.scss';
 
 
+
+
  /* ============================================= */
   /*              Media Queries                    */
   /* ============================================= */
-  @media (min-width: 768px) {
+  @media (min-width: $breakpoint-tablet) {
   
-    .container {
-      max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
     
     .centered {
       display: block;
       margin-left: auto;
       margin-right: auto;
-    }
-    
-    .row {
-      flex-direction: row;
-    }
-    
-    [class^=col] {
-      display: flex;
-      justify-content: center;
-      margin-top: 0;
-      align-items: center;
     }
     
     [class^=col] + [class^=col] {
